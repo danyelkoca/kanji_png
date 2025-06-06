@@ -1,6 +1,19 @@
-# Kanji PNG Generator
+# Kanji PNG Dataset
 
-![Sample Kanji Grid](kanji_sample_grid.png)
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+    <img src="sample/0003.png" />
+    <img src="sample/0008.png" />
+    <img src="sample/0014.png" />
+    <img src="sample/0027.png" />
+    <img src="sample/0041.png" />
+    <img src="sample/0050.png" />
+    <img src="sample/0057.png" />
+    <img src="sample/0064.png" />
+    <img src="sample/0070.png" />
+    <img src="sample/0078.png" />
+    <img src="sample/0087.png" />
+    <img src="sample/0094.png" />
+</div>
 
 This project generates PNG images and metadata for all 13,108 Japanese kanji characters in the KANJIDIC2 dataset using a Japanese font.
 
@@ -32,3 +45,42 @@ This project generates PNG images and metadata for all 13,108 Japanese kanji cha
 
 - All kanji in the KANJIDIC2 dataset are included (Processed 13,108 kanji).
 - You can adjust image size and font in the notebook config section.
+
+## Example metadata (excerpt from metadata.json)
+
+```json
+[
+  {
+    "file": "images/0000.png",
+    "kanji": "意",
+    "meanings": ["idea", "mind", "heart", "taste", "thought", "desire", "care", "liking"],
+    "stroke_count": 13,
+    "frequency": 99,
+    "jlpt": 3
+  },
+  {
+    "file": "images/0001.png",
+    "kanji": "一",
+    "meanings": ["one", "one radical (no.1)"],
+    "stroke_count": 1,
+    "frequency": 2,
+    "jlpt": 4
+  },
+  {
+    "file": "images/0002.png",
+    "kanji": "員",
+    "meanings": ["employee", "member", "number", "the one in charge"],
+    "stroke_count": 10,
+    "frequency": 54,
+    "jlpt": 3
+  },
+  {
+    "file": "images/0003.png",
+    "kanji": "円",
+    "meanings": ["circle", "yen", "round"],
+    "stroke_count": 4,
+    "frequency": 69,
+    "jlpt": 3
+  }
+]
+```
