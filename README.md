@@ -1,19 +1,9 @@
 # Kanji PNG Dataset
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
-    <img src="sample/0003.png" />
-    <img src="sample/0008.png" />
-    <img src="sample/0014.png" />
-    <img src="sample/0027.png" />
-    <img src="sample/0041.png" />
-    <img src="sample/0050.png" />
-    <img src="sample/0057.png" />
-    <img src="sample/0064.png" />
-    <img src="sample/0070.png" />
-    <img src="sample/0078.png" />
-    <img src="sample/0087.png" />
-    <img src="sample/0094.png" />
-</div>
+| ![](sample/0003.png) | ![](sample/0008.png) | ![](sample/0014.png) | ![](sample/0027.png) |
+| -------------------- | -------------------- | -------------------- | -------------------- |
+| ![](sample/0041.png) | ![](sample/0050.png) | ![](sample/0057.png) | ![](sample/0064.png) |
+| ![](sample/0070.png) | ![](sample/0078.png) | ![](sample/0087.png) | ![](sample/0094.png) |
 
 This project generates PNG images and metadata for all 13,108 Japanese kanji characters in the KANJIDIC2 dataset using a Japanese font.
 
